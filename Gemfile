@@ -8,6 +8,7 @@ group :development, :test do
   gem 'guard-rspec', '2.5.0'
   gem 'spork-rails', github: 'railstutorial/spork-rails', branch: 'rails-4'
   gem 'guard-spork', '1.5.0'
+  gem 'annotate', ">=2.5.0"
 end
 
 group :test do
