@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.0.beta1'
+gem 'gravatar_image_tag'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
