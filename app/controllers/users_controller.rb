@@ -10,5 +10,15 @@ class UsersController < ApplicationController
   	@title = "Sign up"
   end
 
+
+  def create
+    @user = User.new(params[:id])
+    if @user.save
+      redirect_to @user
+    else
+      render 'new'
+    end
+   end
+
   
 end
